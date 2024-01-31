@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.freevector.com/uploads/vector/preview/19739/7-09.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.kitten {
+    max-width: 100%;
+    height: auto;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.button-container {
+    margin-top: 10px;
+
+}
+
+.yes-button, .no-button  {
+  
+ background-color: #007bff;
+ color: white;
+ padding: 15px 30px;
+ border: none;
+ cursor: pointer;
+ margin-right: +200px; 
+ margin-left: -25px
+  }
+
+.yes-button{
+    position: relative;
+}
+
+.no-button {
+    position: absolute;
+}
+
+
