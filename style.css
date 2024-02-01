@@ -10,50 +10,48 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.container {
+  }
+  
+  .container {
     position: relative;
     text-align: center;
-}
-
-.kitten {
+  }
+  
+  .kitten {
     max-width: 100%;
     height: auto;
     background-color: transparent;
     border: none;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-.card {
+  }
+  
+  .card {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 5px;
     margin-top: 20px;
-}
-
-.button-container {
-    margin-top: 10px;
-
-}
-
-.yes-button, .no-button  {
-  
- background-color: #007bff;
- color: white;
- padding: 15px 30px;
- border: none;
- cursor: pointer;
- margin-right: +200px; 
- margin-left: -25px
   }
-
-.yes-button{
-    position: relative;
-}
-
-.no-button {
+  
+  .button-container {
+    margin-top: 10px;
+  }
+  
+  .yes-button, .no-button {
+    background-color: rgb(255, 105, 105);
+    border-radius: 20px;
+    border: none;
+    color: black;
+    padding: 20px 50px;
+    cursor: pointer;
+    margin: 10px auto 0;
+  }
+  
+  .yes-button {
     position: absolute;
-}
-
-
+    right: 45%;
+    transform: translateX(-50%);
+  }
+  
+  .no-button {
+    position: absolute;
+  }
